@@ -1,0 +1,107 @@
+header {
+  display: block;
+}
+
+.header_top {
+  background-color: black;
+  display: flex;
+}
+
+.logo {
+  max-width: 100px;
+  padding: 0 15px;
+}
+
+.form_button,
+.person,
+.orders {
+  font-size: 15px;
+  color: #fff;
+  background-color: transparent;
+  margin: 0 10px;
+}
+
+.form_button span,
+.person span,
+.orders span {
+  font-size: 20px;
+  display: block;
+}
+
+input {
+  height: 20px;
+  width: 600px;
+  align-self: center;
+}
+
+.language {
+  max-width: 80px;
+  max-height: 40px;
+  margin: 0 15px;
+  align-self: center;
+}
+
+.cart {
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 15px;
+  align-self: center;
+}
+
+.person,
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_bottom {
+  background-color: #232f3e;
+}
+
+.header_bottom ul {
+  display: flex;
+  margin: 0;
+  padding-left: 11px;
+}
+
+.header_bottom ul li {
+  color: #fff;
+  margin: 0 20px;
+  padding: 15px 0;
+}
+
+.main {
+  display: flex;
+}
+
+.left_part {
+  width: 25%;
+}
+
+.right_part {
+  width: 65%;
+  display: flex;
+}
+
+.left_part li {
+  margin: 5px;
+}
+
+.right_part .product {
+  max-width: 300px;
+  margin: 5px;
+  background-color: #f0e8e8;
+  padding: 10px;
+}
+.right_part .product img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+span {
+  margin: 15px 0;
+  font-size: 20px;
+  display: block;
+}
